@@ -1,10 +1,38 @@
+body {
+  background-color: #d3d3d3; /* Màu nền xám tổng thể cho trang */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d3d3d3;
+}
+
 nav {
   display: inline-block;
   width: 80%;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
 header nav img {
   width: 10%;
+}
+
+/* Tô màu nền vàng cho phần nội dung chính giống ảnh mẫu */
+main {
+  background-color: yellow;
+  padding: 20px;
 }
 
 .grid {
@@ -23,4 +51,9 @@ header nav img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+footer {
+  background-color: #d3d3d3;
+  padding: 10px;
 }
