@@ -1,0 +1,19 @@
+/* 
+li {
+    margin: 10px 0;
+    list-style-type: square;
+} 
+*/
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+header nav img {
+    width: 10%;
+}
