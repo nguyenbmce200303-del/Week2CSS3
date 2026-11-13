@@ -17,3 +17,29 @@ nav img {
 header nav img {
     width: 10%;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.flex img {
+    max-width: 100%;
+    height: auto;
+}
